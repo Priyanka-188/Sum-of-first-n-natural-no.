@@ -1,0 +1,1 @@
+# Sum-of-first-n-natural-no.
