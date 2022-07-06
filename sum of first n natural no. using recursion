@@ -1,0 +1,11 @@
+#  function to find out the sum using recursion
+def sum(num):  
+    if num==1:
+        return 1
+    else:
+        return num+sum(num-1)
+
+print("Enter a natural number upto which you want to find out the sum :", end = " ")
+num1 = int(input())
+
+print("Sum of ",num1,"natural numbers is :", sum(num1))
